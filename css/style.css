@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'BPG Banner';
+    src: url('../fonts/bpg-banner-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-banner-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-banner-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-banner-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-banner-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-banner-webfont.svg#bpg_bannerregular') format('svg'); /* Legacy iOS */
+}
+/* ----------------------ზოგადი---------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'BPG Banner';
+}
+
+.container{
+    margin: 0 10vw;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+/* ----------------------ზედა ნაწილი---------------------*/
+
+#top{
+    background: url(../img/mountain.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+header{
+    padding-top: 7vh;
+}
+
+nav ul{
+    float: right;
+    margin: 0;
+    margin-top: -2.5vh;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 0.7em;
+    color: white;
+}
+
+
+/* ----------------------ბანერი---------------------*/
+
+#banner{
+    text-align: center;
+    margin-top: 25vh;
+    font-size: 2.5em;
+    color: white;
+}
+
+#banner h1{
+    font-weight: 100;
+    margin: 0;
+}
+
+#banner h2{
+    margin: 0.2em;
+}
+
+#banner p{
+    font-size: 0.5em;
+    margin: 15vh 12vw;
+    margin-bottom: 5vh;
+    font-weight: 100;
+}
+
+#banner a{
+    padding: 15px 25px;
+    font-size: 20px;
+    margin: -4px;
+    text-decoration: none;
+    color: white;
+}
+
+.more{
+    background-color: #F42257;
+}
+
+#download{
+    background-color: #36C4C5;
+}
+
+/*-----------------------კონტენტი 1-----------------------*/
+#content-1{
+    margin: 10vh 5vw;
+    opacity: 0.85;
+}
+
+#content-1 .container{
+    padding: 10px;
+    text-align: center;
+    display: table-cell;
+}
+
+#content-1 img{
+    width: 50px;
+}
+
+#content-1 img, #content-1 h1{
+    margin-bottom: 3vh;
+}
+
+/*-----------------------კონტენტი 2-----------------------*/
+
+#content-2{
+    background: url(../img/waterfall.jpg);
+    height: 80vh;
+    background-size: cover;
+    color: white;
+}
+
+#main-text h1{
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 5vh;
+}
+
+#main-text h2{
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-bottom: 5vh;
+}
+
+#content-2 p{
+    line-height: 1.5em;
+    margin-bottom: 5vh;
+}
+
+#content-2 .container{
+    margin: 0 5vw;
+}
+
+#main-container{
+    width: 45vw;
+    height: 100%;
+    float: right;
+    background: rgba(52, 152, 219, 0.7);
+}
+
+#main-text{
+    padding-top: 10vh;
+}
+
+#small-container-1, #small-container-2{
+    border: 1px solid white;
+    padding: 1.5rem 0;
+}
+
+#small-container-1 {
+    float: left;
+    margin-left: 5%;
+}
+
+#small-container-2{
+    float: right;
+    margin-right: 5%;
+}
+
+/*--------------------------------------კონტენტი 3----------------------------------*/
+
+#content-3{
+    margin: 10vh 0;
+    height: 30em;
+}
+
+#content-3-left{
+    float:left;
+}
+#outer-element{
+    width: 45vw;
+    text-align:center;
+}
+#inner-element{
+    display:inline-block;
+}
+
+#content-3 img{
+    max-width: 25em;
+}
+
+#content-3-right{
+    float: right;
+    width: 53vw;
+}
+
+#content-3 h1{
+    margin-bottom: 1.5em;
+}
+
+#content-3 p{
+    line-height: 1.5em;
+}
+
+#second-p{
+    margin-bottom: 7vh;
+}
+
+#content-3 .more{
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*--------------------------------------ფუტერი----------------------------------*/
+
+footer{
+    background: #24323B;
+    height: 180px;
+    color: white;
+}
+
+#footer-text{
+    width: 50vw;
+}
+
+footer h1{
+    padding: 30px 0;
+    font-size: 2em;
+    font-weight: 100;
+}
+
+footer h2{
+    padding: 30px 0;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+footer a{
+    text-decoration: none;
+    color: #268889;
+}
+
+#logos{
+    float: right;
+    width: 20vw;
+    margin-top: -100px;
+    text-align: right;
+}
+
+#logos img{
+    width: 30px;
+    margin-left: 5px;
+}
